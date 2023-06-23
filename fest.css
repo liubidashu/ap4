@@ -1,0 +1,72 @@
+.razdel3 {
+    display: flex;
+    flex-direction: row;
+    width: 51.15vw;
+    height: 3.4vw;
+    justify-content: space-between;
+    margin: 1vw auto;
+    /* background: gray; */
+}
+.razdel3 a {
+    width:11.6vw;
+    height: 2.2vw;
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.46vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    background-size: cover;
+    line-height: 1.8vw;
+    text-decoration: none;
+    text-align: center;
+}
+.week3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/week.svg');
+}
+.fest3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/f1.svg');
+}
+.door3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/od.svg');
+}
+.bo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93.23vw;
+    height: 45.77vw;
+    margin: 0 auto;
+    /* background: green; */
+}
+.pla7 {
+width: 29.79vw;
+height: 41.67vw;
+background-image: url('../images/poster7.svg');
+background-size: cover;
+}
+.pla7:hover {
+    background-image: url('../images/kr1.svg');
+}
+.pla8 {
+    width: 29.79vw;
+    height: 41.67vw;
+    background-image: url('../images/poster8.svg');
+    background-size: cover;
+}
+.pla8:hover {
+    background-image: url('../images/kr2.svg');
+}
+.pla9 {
+    width: 29.79vw;
+    height: 41.67vw;
+    background-image: url('../images/poster9.svg');
+    background-size: cover;
+}
+.pla9:hover {
+    background-image: url('../images/kr3svg');
+}
+    

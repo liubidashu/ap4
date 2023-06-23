@@ -1,0 +1,128 @@
+.pervoe3 {
+    display: flex;
+    flex-direction: row;
+    width: 51.15vw;
+    height: 3.4vw;
+    justify-content: space-between;
+    margin: 1vw auto;
+    /* background: gray; */
+}
+.pervoe3 a {
+    width:11.6vw;
+    height: 2.2vw;
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.46vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    background-size: cover;
+    line-height: 1.8vw;
+    text-decoration: none;
+    text-align: center;
+}
+.atri3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/atri3.svg');
+}
+.zakaz3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/zakaz.svg');
+}
+.kat3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/nk1.svg');
+}
+.promokod3 {
+    margin-top: 0.6vw;
+    background-image: url('../images/promokod.svg');
+}
+.konveer {
+    display: flex;
+    width: 100vw;
+    height: 54.47vw;
+    /* background: grey; */
+    overflow: hidden;
+}
+.vnu-kon {
+    display: flex;
+    flex-direction: row;
+    width: 646.21vw;
+    height: 35.8vw;
+    margin-top: 3.5vw;
+    /* background: green; */
+    animation: kale 20s linear infinite;
+}
+@keyframes kale {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}
+.vnu-kon:hover {
+    animation-play-state: paused;
+}
+.kale1 {
+    display: block;
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    background-image: url('../images/kale1.gif');
+}
+.kale1:hover {
+    background-image: url('../images/rub1.svg');
+}
+.kale2 {
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    margin-left: 3.54vw;
+    background-image: url('../images/kale2.gif');
+}
+.kale2:hover {
+    background-image: url('../images/rub-skat.svg');
+}
+.kale3 {
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    margin-left: 3.54vw;
+    background-image: url('../images/kale3.gif');
+}
+.kale3:hover {
+    background-image: url('../images/rub-v.svg');
+}
+.kale4 {
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    margin-left: 3.54vw;
+    background-image: url('../images/kale4.gif');
+}
+.kale4:hover {
+    background-image: url('../images/skoro.svg');
+}
+.kale5 {
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    margin-left: 3.54vw;
+    background-image: url('../images/kale5.gif');
+}
+.kale5:hover {
+    background-image: url('../images/rub-k.svg');
+}
+.kale6 {
+    width: 59.48vw;
+    height: 35.47vw;
+    background-size: cover;
+    border: 0.10vw solid white;
+    margin-left: 3.54vw;
+    background-image: url('../images/kale1.gif');
+}
+.kale6:hover {
+    background-image: url('../images/rub1.svg');
+}

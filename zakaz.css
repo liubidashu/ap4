@@ -1,0 +1,298 @@
+.pervoe1 {
+    display: flex;
+    flex-direction: row;
+    width: 51.15vw;
+    height: 3.4vw;
+    justify-content: space-between;
+    margin: 1vw auto;
+    /* background: gray; */
+}
+.pervoe1 a {
+    width:11.6vw;
+    height: 2.2vw;
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.46vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    background-size: cover;
+    line-height: 1.8vw;
+    text-decoration: none;
+    text-align: center;
+}
+.atri1 {
+    margin-top: 0.6vw;
+    background-image: url('../images/atri.svg');
+}
+.zakaz1 {
+    margin-top: 0.6vw;
+    background-image: url('../images/zakaz1.svg');
+}
+.kat1 {
+    margin-top: 0.6vw;
+    background-image: url('../images/nk1.svg');
+}
+.promokod1 {
+    margin-top: 0.6vw;
+    background-image: url('../images/promokod.svg');
+}
+.girl1 {
+    display: flex;
+    width: 100vw;
+    height: 6.51vw;
+    /* background: green; */
+    margin-top: 1.5vw;
+    overflow: hidden;
+}
+.skazka1 {
+    width: 200vw;
+    height: 6.51vw;
+    animation: row 12s linear infinite;
+}
+@keyframes row {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}
+.mainkub {
+    display: flex;
+    width: 78.13vw;
+    height: 25.69vw;
+    /* background: grey; */
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ank1 {
+    display: flex;
+    flex-direction: column;
+    width: 33.70vw;
+    /* background: green; */
+}
+.q1 {
+    width: 33.59vw;
+    height: 2.60vw;
+    margin-top: 3vw;
+    /* background: yellow; */
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.77vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    line-height: 1.3;
+}
+.form {
+    border: 0.10vw solid white;
+    background: black;
+    color: white;
+    border-radius: 4.17vw;
+    width: 27.03vw;
+    height: 2.3vw;
+    margin-top: 2vw;
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 300;
+    letter-spacing: 0.04vw;
+}
+.q2 {
+    width: 33.59vw;
+    height: 2.60vw;
+    margin-top: 4vw;
+    /* background: yellow; */
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.77vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    line-height: 1.3;
+}
+.form2 {
+    border: 0.10vw solid white;
+    background: black;
+    color: white;
+    border-radius: 4.17vw;
+    width: 27.03vw;
+    height: 2.3vw;
+    margin-top: 2vw;
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 300;
+    letter-spacing: 0.04vw;
+}
+.ank2 {
+    display: flex;
+    flex-direction: column;
+    width: 26.70vw;
+    /* background: green; */
+}
+.q3 {
+    width: 33.59vw;
+    height: 2.60vw;
+    margin-top: 3vw;
+    /* background: yellow; */
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.77vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    line-height: 1.3;
+}
+/* место для кружочков */
+.gotovo {
+    display: flex;
+    margin: 0 auto;
+    width: 11.93vw;
+    height: 3.33vw;
+}
+.bottom-gotovo {
+    width: 11.93vw;
+    height: 3.33vw;
+    background-image:  url('../images/bg.svg');
+    background-size: cover;
+}
+.bottom-gotovo p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.77vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw; 
+    line-height: 2.8vw;
+    text-align: center;
+}
+.wk {
+    position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+}
+.sk {  position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+}
+.wk2 {
+    position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+    margin-left: 8vw;
+}
+.sk2 {  position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+    margin-left: 8vw;
+}
+.wk3 {
+    position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+    margin-left: 16vw;
+}
+.sk3 {  position: absolute;
+    width: 6.41vw;
+    height: 6.41vw;
+    margin-top: 6vw;
+    margin-left: 16vw;
+} 
+.q4 {
+    width: 33.59vw;
+    height: 2.60vw;
+    margin-top: 8.7vw;
+    /* background: yellow; */
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.77vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    line-height: 1.3;
+}
+.wt {
+    position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+}
+.st {  position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+}
+.wt2 {
+    position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+    margin-left: 8vw;
+}
+.st2 {  position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+    margin-left: 8vw;
+}
+.wt3 {
+    position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+    margin-left: 16vw;
+}
+.st3 {  position: absolute;
+    width: 5.42vw;
+    height: 5.42vw;
+    margin-top: 17.8vw;
+    margin-left: 16vw;
+}
+.window {
+    background:rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    margin-top: 4vw;
+    z-index: 4;
+}
+.thanks {
+    display: block;
+    width: 48.13vw;
+    height: 25.21vw;
+    margin: 10vw auto;
+    background: #0500FF;
+}
+.thanks h1 {
+    font-family: 'LemurmureRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6.04vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+.thanks p {
+    font-family: "Oswald";
+    font-style: normal;
+    font-size: 1.46vw;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.04vw;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+
+.none{
+    display: none;
+}

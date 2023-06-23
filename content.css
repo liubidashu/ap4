@@ -1,0 +1,112 @@
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+.main {
+  background-image: url('../images/new.gif');
+  height: 188.6vw;
+
+}
+}
+body {
+  background-color: black;
+}
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0 auto;
+  /* flex-direction: column; */
+}
+header {
+  margin-top: 2vw;
+}
+.head {
+  font-family: 'LemurmureRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vw;
+  color: white;
+  letter-spacing: 0.2vw;
+  margin-left: 3.13vw;
+  text-decoration: none;
+  }
+  .menu {
+  width: 3.23vw;
+  height: 2.40vw;
+  margin-right: 3.13vw;
+  }
+  .main {
+  background-image: url('../images/cale.gif');
+  background-size: cover;
+  width: 100vw;
+  height: 48.6vw;
+  margin: 2vw 0;
+  }
+.podval {
+  width: 29vw;
+  height: 6vw;
+  margin-left: 3.13vw;
+}
+.podval p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 1.04vw;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.04vw;
+  line-height: 1.5;
+}
+
+.logo img {
+  width: 12vw;
+  height: 4vw;
+  margin-right: 2.1vw;
+}
+
+.menu_popup {
+  background:rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  margin-top: 4vw;
+  z-index: 6;
+}
+.menu_popup a {
+  display: block;
+  font-family: 'LemurmureRegular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.7vw;
+  color: white;
+  letter-spacing: 0.2vw;
+  text-align: center;
+  background-size: cover;
+  line-height: 5vw;
+  width: 21.21vw;
+  text-decoration: none;
+}
+/* кнопка с переходом в раздел информация */
+.info {
+  margin-top: 12.6vw;
+  background-image: url('../images/info.svg');
+}
+/* кнопка с переходом в раздел месторасположение */
+.location {
+  margin-top: 1.88vw;
+  background-image: url('../images/location.svg');
+}
+/* кнопка с переходом в раздел каталог*/
+.katalog {
+  margin-top: 1.88vw;
+  background-image: url('../images/ka.svg');
+}
+/* кнопка с переходом в раздел события*/
+.events {
+  margin-top: 1.88vw;
+  background-image: url('../images/events.svg');
+}
+.none {
+  display: none;
+}
+

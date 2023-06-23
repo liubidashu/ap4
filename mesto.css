@@ -1,0 +1,230 @@
+.glavn {
+    display: flex;
+    height: 174.49vw;
+    width: 100vw;
+    margin: 2vw 0;
+    /* flex-direction: row; */
+    flex-direction: column;
+}
+.line1 {
+    background-size: cover;
+    margin-top: 1.1vw;
+    margin-left: 2.5vw;
+    width: 94.75vw;
+    height: 10.5vw;
+    background-image: url('../images/bolsh1.svg');
+    background-repeat: no-repeat;
+}
+.vnutri1 {
+    width: 80.26vw;
+    height: 7.50vw;
+    /* background: grey; */
+    margin-top: 1.48vw;
+    margin-left: 7.1vw;
+    overflow: hidden;
+}
+
+.block-vnutri {
+    width: 162vw;
+    animation: row 7s linear infinite;
+}
+
+.vnutri1 p {
+    font-family: 'LemurmureRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.51vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    background-size: cover;
+    margin-top: 0.8vw;
+    
+}
+@keyframes row {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}
+.picture1 {
+    width: 100vw;
+    height: 39.38vw;
+    margin-top: 2.1vw;
+    background-image: url('../images/picture1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line2 {
+    background-size: cover;
+    margin-top: 2.1vw;
+    margin-left: 2.5vw;
+    width: 94.75vw;
+    height: 10.5vw;
+    background-image: url('../images/bolsh2.svg');
+    background-repeat: no-repeat;
+}
+.vnutri2 {
+    width: 80.26vw;
+    height: 7.50vw;
+    margin-top: 1.48vw;
+    margin-left: 7.1vw;
+    overflow: hidden;
+}
+
+.block-vnutri-1 {
+    width: 225vw;
+    animation: row 7s linear infinite;
+}
+
+.vnutri2 p {
+    font-family: 'LemurmureRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.51vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    background-size: cover;
+    margin-top: 0.8vw;
+}
+.picture2 {
+    width: 100vw;
+    height: 39.38vw;
+    margin-top: 2.1vw;
+}
+.line3 {
+    background-size: cover;
+    margin-top: 2.1vw;
+    margin-left: 2.5vw;
+    width: 94.75vw;
+    height: 10.5vw;
+    background-image: url('../images/bolsh4.svg');
+    background-repeat: no-repeat;  
+}
+.vnutri3 {
+    width: 80.26vw;
+    height: 7.50vw;
+    margin-top: 1.48vw;
+    margin-left: 7.1vw;
+    overflow: hidden;
+}
+
+.block-vnutri-2 {
+    width: 165vw;
+    animation: row 7s linear infinite;
+}
+
+.vnutri3 p {
+    font-family: 'LemurmureRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.51vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    background-size: cover;
+    margin-top: 0.8vw;
+}
+.picture3 {
+    width: 100vw;
+    height: 39.38vw;
+    margin-top: 2.1vw;
+}
+.line4 {
+    background-size: cover;
+    margin-top: 2.1vw;
+    margin-left: 2.5vw;
+    width: 94.75vw;
+    height: 10.5vw;
+    background-image: url('../images/bolsh5.svg');
+    background-repeat: no-repeat;  
+}
+.vnutri4 {
+    width: 80.26vw;
+    height: 7.50vw;
+    margin-top: 1.48vw;
+    margin-left: 7.1vw;
+    overflow: hidden;
+}
+
+.block-vnutri-3 {
+    width: 175vw;
+    animation: row 7s linear infinite;
+}
+
+.vnutri4 p {
+    font-family: 'LemurmureRegular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5.51vw;
+    color: white;
+    letter-spacing: 0.2vw;
+    background-size: cover;
+    margin-top: 0.8vw;
+}
+.vt {
+    width: 100vw;
+    height: 20vw;
+    /* background: gray; */
+    display: flex;
+    flex-direction: row;
+}
+/* следующий раздел  */
+.flower1 {
+    margin-top: 0.5vw;
+    margin-left: 3.4vw;
+    background-image: url('../images/flower1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 19.4vw;
+    height: 19vw; 
+    animation: flower 6s linear infinite;
+}
+@keyframes flower {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+}
+.flower2 {
+    margin-top: 5.1vw;
+    margin-left: 3.6vw;
+    background-image: url('../images/flower2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 9.69vw;
+    height: 9.69vw; 
+    animation: rast 6s linear infinite;
+}
+@keyframes rast {
+    0% { transform: scale(.45);}
+    50% {transform: scale(1);}
+    100% { transform: scale(.45);}
+}
+.treti {
+    width: 88vw;
+    height: 20vw;
+    /* background: gray; */
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+.flower3 {
+    margin-top: 5.1vw;
+    margin-left: 3.6vw;
+    background-image: url('../images/flower2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 9.69vw;
+    height: 9.69vw; 
+    animation: rast 6s linear infinite;
+}
+.flower4 {
+    width: 19.4vw;
+    height: 19vw; 
+    background-image: url('../images/flower1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 19.4vw;
+    height: 19vw; 
+    animation: flower4 6s linear infinite;
+}
+@keyframes flower4 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
